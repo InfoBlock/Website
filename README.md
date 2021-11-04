@@ -1,5 +1,5 @@
-# InfoBlock.gq
-This is the official Source Code of my Website InfoBlock.gq - Feel free to use it for your own Website!
+# InfoBlock
+This is the official Source Code of my Website - Feel free to use it for your own Website!
 
 ## Credits
 My Website uses an Template made by Luna - All credits go to her!
@@ -8,4 +8,4 @@ My Website uses an Template made by Luna - All credits go to her!
 - [Website](https://xyna.space/@luna/)
 
 ## Preview
-You can see a preview of the Website [here](https://infoblock.github.io/InfoBlock.gq) or [here](https://infoblock.gq)
+You can see a preview of the Website [here](https://infoblock.github.io/InfoBlock.gq) or [here](http://148.251.92.133)
