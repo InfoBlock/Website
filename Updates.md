@@ -2,6 +2,8 @@
 * New Page added (blockai)
 * New Button for Block A.I.
 * Credits removed
+* Updated Page Anime RP
+* New Button for Anime RP
 
 ## 12/14/2021
 * New Preview Site added
