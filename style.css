@@ -35,14 +35,8 @@ header span {
 }
 
 .card {
-    transform: rotate(0deg);
     transition: transform 0.2s ease-in-out;
 }
-
-.card:hover {
-    transform: rotate(2deg);
-}
-
 #splashIcon {
     transform: translateY(-60%);
 }
