@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="Twitch Stream" />
+
+        <meta name="twitter:site" content="@InfoBlock3" />
+        <meta name="twitter:title" content="InfoBlock" />
+        <meta name="twitter:description" content="Twitch Stream" />
+        <meta name="twitter:image" content="https://i.imgur.com/wyg2pNi.png" />
+
+        <meta property='og:title' content='InfoBlock' />
+        <meta property='og:type' content="website" />
+        <meta property='og:description' content='Twitch Stream' />
+        <meta property="og:image" content='https://i.imgur.com/wyg2pNi.png' />
+        <meta name="theme-color" content="#6B21A8" />
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.0/tailwind.min.css">
+        <link rel="stylesheet" href="../twitch.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>InfoBlock</title>
+        <link rel="shortcut icon" href="../cdn/logo.png" type="image/x-icon">
+    </head>
+    
+    <body class="pt-40 p-0 bg-gray-900 text-white">
+
+        <div class="text-center md:w-1/2 w-screen select-none"">
+            <a class="text-6xl font-semibold" href="../">InfoBlock</a> <br>
+            <a class="text-gray-500">Twitch Stream</a> <br><br>
+            <a class="text-gray-500">Click on my Name to get back to the Main Page</a> <br>
+        </div>
+        <div class="w-1/2 float-right hidden md:block">
+            <img src="../cdn/logo.png" id="splashIcon" style="border-radius: 20px;" class="overflow-hidden w-64 mx-auto">
+        </div>
+        <div class="px-20 w-screen" id="list">
+            <div class="card bg-gray-100 rounded-lg bg-gray-800 hover:shadow-xl p-5 content-around"">
+                <div class="flex">
+                    <img src="../cdn/Twitch.png" class="rounded-lg w-10 h-10"><span class="font-bold ml-3 mt-2">Watch my Stream</span>
+                </div>
+                <p class="text-gray-400 mt-2">
+                    <div id="twitch-embed"></div>
+                </p>
+            </div>
+        </div>
+        
+        <script src="https://embed.twitch.tv/embed/v1.js"></script>
+        <script type="text/javascript">
+            new Twitch.Embed("twitch-embed", {
+                width: 854,
+                height: 480,
+                channel: "infoblock",
+                layout: video,
+                autoplay: false,
+                theme: dark
+            });
+        </script>
+    </body>
+</html>
