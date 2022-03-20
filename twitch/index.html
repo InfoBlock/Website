@@ -36,26 +36,14 @@
             <img src="../cdn/logo.png" id="splashIcon" style="border-radius: 20px;" class="overflow-hidden w-64 mx-auto">
         </div>
         <div class="px-20 w-screen" id="list">
-            <div class="card bg-gray-100 rounded-lg bg-gray-800 hover:shadow-xl p-5 content-around"">
-                <div class="flex">
-                    <img src="../cdn/Twitch.png" class="rounded-lg w-10 h-10"><span class="font-bold ml-3 mt-2">Watch my Stream</span>
-                </div>
-                <p class="text-gray-400 mt-2">
-                    <div id="twitch-embed"></div>
-                </p>
-            </div>
+            <iframe
+                src="https://player.twitch.tv/?channel=infoblock&parent=infoblock.gq&autoplay=false"
+                frameborder="0"
+                scrolling="no"
+                allowfullscreen="true"
+                height="100%"
+                width="100%">
+            </iframe>
         </div>
-        
-        <script src="https://embed.twitch.tv/embed/v1.js"></script>
-        <script type="text/javascript">
-            new Twitch.Embed("twitch-embed", {
-                width: 854,
-                height: 480,
-                channel: "infoblock",
-                layout: video,
-                autoplay: false,
-                theme: dark
-            });
-        </script>
     </body>
 </html>
