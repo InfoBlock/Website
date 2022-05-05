@@ -26,6 +26,7 @@
     </head>
     
     <body class="pt-40 p-0 bg-gray-900 text-white">
+        <div id="preloader"></div>
 
         <div class="text-center md:w-1/2 w-screen select-none">
             <a class="text-6xl font-semibold">InfoBlock</a> <br>
@@ -67,10 +68,23 @@
                     <img src="cdn/Twitter.png" class="rounded-lg w-10 h-10"><span class="font-bold ml-3 mt-2">Twitter</span>
                 </div>
                 <p class="text-gray-400 mt-2">
-                    Check me out on Twitter!.
+                    Check me out on Twitter!
                 </p>
                 <p class="text-blue-300 mt-2">
                     https://twitter.com/InfoBlock4
+                </p>
+            </div>
+
+            <!-- FIELD FOUR -->
+            <div class="card bg-gray-100 rounded-lg bg-gray-800 hover:shadow-xl p-5 content-around" onclick="window.open('https://youtube.com/channel/UCpxPcXv3eD8U3qEbcPEAVrQ')">
+                <div class="flex">
+                    <img src="cdn/YouTube.png" class="rounded-lg w-10 h-10"><span class="font-bold ml-3 mt-2">YouTube</span>
+                </div>
+                <p class="text-gray-400 mt-2">
+                    Check me out on YouTube!
+                </p>
+                <p class="text-blue-300 mt-2">
+                    Click here
                 </p>
             </div>
             
@@ -79,6 +93,9 @@
             <a class="text-gray-500">Copyright &copy; InfoBlock</a>
             <a class="text-gray-500" href="./terms/">Terms of Service</a>
             <a class="text-gray-500" href="./privacy/">Privacy Policy</a>
+
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+            <script src="js/preloader.js"></script>
         </div>
     </body>
 </html>
