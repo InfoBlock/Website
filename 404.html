@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.0/tailwind.min.css">
+        <link rel="stylesheet" href="./style.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>InfoBlock</title>
+        <link rel="shortcut icon" href="./cdn/logo.png" type="image/x-icon">
+    </head>
+    
+    <body class="pt-40 p-0 bg-gray-900 text-white">
+
+        <div class="text-center md:w-1/2 w-screen select-none">
+            <a class="text-6xl font-semibold">InfoBlock</a> <br>
+            <a class="text-gray-500">404 | Not Found</a> <br>
+        </div>
+        <div class="w-1/2 float-right hidden md:block">
+            <img src="../cdn/logo.png" id="splashIcon" style="border-radius: 20px;" class="overflow-hidden w-64 mx-auto">
+        </div>
+        <div class="px-20 w-screen" id="list">
+            <a class="text-gray-400">
+                The requested page was not found! Redirecting to the main page...
+            </a>
+        </div>
+
+        <script type="text/javascript">
+            (function() {
+                setTimeout(function() {
+                    window.location="https://infoblock.gq";
+                }, 70000)
+            })();
+        </script>
+    </body>
+</html>
