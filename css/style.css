@@ -56,15 +56,3 @@ header span {
         margin-top: 220px;
     }
 }
-
-#preloader {
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 999;
-    width: 100%;
-    height: 100%;
-    overflow: visible;
-    background: #6B21A8 url('https://i.imgur.com/6KJJVJy.png') no-repeat center center;
-    background-size: 1000px;
-}
