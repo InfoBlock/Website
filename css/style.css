@@ -50,6 +50,20 @@ header span {
     margin-top: 300px;
 }
 
+@media only screen and (min-width: 361px) {
+    #list {
+        grid-gap: 30px;
+        margin-left: 9px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #list {
+        grid-gap: 30px;
+        margin-left: 10px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     #list {
         grid-gap: 30px;
