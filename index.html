@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="page font-Roboto" lang="en">
 
     <head>
         <meta charset="utf-8" />
         <meta name="description" content="Web & Discord Bot Dev" />
+        <meta name="language" content="english">
 
         <meta name="twitter:site" content="@InfoBlock3" />
         <meta name="twitter:title" content="InfoBlock" />
@@ -17,81 +18,112 @@
         <meta name="theme-color" content="#6B21A8" />
 
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.0/tailwind.min.css">
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.4/tailwind.min.css">
+        <link rel="stylesheet" href="./css/about-me.css">
+        <link rel="stylesheet" href="./css/page.css">
+        <link rel="stylesheet" href="./css/cards.css">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>InfoBlock</title>
         <link rel="shortcut icon" href="./cdn/logo.png" type="image/x-icon">
     </head>
     
-    <body class="pt-40 p-0 bg-gray-900 text-white">
-
-        <div class="text-center md:w-1/2 w-screen select-none">
-            <a class="text-6xl font-semibold">InfoBlock</a> <br>
-            <a class="text-gray-500">Web & Discord Bot Dev</a> <br>
+    <body style="padding: 0rem;">
+        <div class="top-padding">
+            <div class="pfp-flex">
+                <div class="md:w-1/2 w-screen text-margin">
+                    <text class="name">InfoBlock</text>
+                    <p class="sub-text">
+                        <br><br>
+                        <bold class="high-light-text-gray">//</bold> You are currently looking at V2 of my Website<br>
+                        <bold class="high-light-text-gray">//</bold> The Template for V2 was made by <a class="saho" href="https://github.com/Luna-devv" target="_blank">Luna</a> on Github<br>
+                        <bold class="high-light-text-gray">//</bold> Want your Website to look like this? <a class="saho" href="https://github.com/Luna-devv/Modern-Website" target="_blank">Get the Template</a><br>
+                    </p>
+                </div>
+                <a class="pfp">
+                    <img src="./cdn/logo.png" alt="InfoBlock's Profile Picture" class="spicutes" draggable="false">
+                </a>
+            </div>
         </div>
-        <div class="w-1/2 float-right hidden md:block">
-            <img src="cdn/logo.png" id="splashIcon" style="border-radius: 20px;" class="overflow-hidden w-64 mx-auto">
+
+        <div class="list">
+            <a>
+                <div class="card" onclick="window.open('https://discord.com/invite/zWFW6yg')">
+                    <div style="display: flex;">
+                        <img src="./cdn/Discord.png" class="card-img" alt="Discord" draggable="false">
+                        <span class="card-title">Discord</span>
+                    </div>
+                    <p class="card-desc">
+                        Become a part of the Community!
+                    </p>
+                    <p class="card-url">
+                        discord.com/invite/zWFW6yg
+                    </p>
+                </div>
+            </a>
+            <a>
+                <div class="card" onclick="window.open('https://twitch.tv/infoblock')">
+                    <div style="display: flex;">
+                        <img src="./cdn/Twitch.png" class="card-img" alt="Twitch" draggable="false">
+                        <span class="card-title">Twitch</span>
+                    </div>
+                    <p class="card-desc">
+                        Maybe leave me a follow!
+                    </p>
+                    <p class="card-url">
+                        twitch.tv/infoblock
+                    </p>
+                </div>
+            </a>
+            <a>
+                <div class="card" onclick="window.open('https://twitter.com/InfoBlock4')">
+                    <div style="display: flex;">
+                        <img src="./cdn/Twitter.png" class="card-img" alt="Twitter" draggable="false">
+                        <span class="card-title">Twitter</span>
+                    </div>
+                    <p class="card-desc">
+                        Bird goes *Tweet Tweet*
+                    </p>
+                    <p class="card-url">
+                        twitter.com/InfoBlock4
+                    </p>
+                </div>
+            </a>
+            <a>
+                <div class="card" onclick="window.open('https://www.youtube.com/channel/UCpxPcXv3eD8U3qEbcPEAVrQ')">
+                    <div style="display: flex;">
+                        <img src="./cdn/YouTube.png" class="card-img" alt="YouTube" draggable="false">
+                        <span class="card-title">YouTube</span>
+                    </div>
+                    <p class="card-desc">
+                        Would love if you subscribed!
+                    </p>
+                    <p class="card-url">
+                        Click here
+                    </p>
+                </div>
+            </a>
         </div>
-        <div class="px-20 w-screen" id="list">
-            <!-- FIELD ONE -->
-            <div class="card bg-gray-100 rounded-lg bg-gray-800 hover:shadow-xl p-5 content-around" onclick="window.open('https://discord.gg/zWFW6yg')">
-                <div class="flex">
-                    <img src="cdn/Discord.png" class="rounded-lg w-10 h-10"><span class="font-bold ml-3 mt-2">Discord</span>
-                </div>
-                <p class="text-gray-400 mt-2">
-                    Join my Discord Server!
-                </p>
-                <p class="text-blue-300 mt-2">
-                    https://discord.gg/zWFW6yg
-                </p>
-            </div>
-
-            <!-- FIELD TWO -->
-            <div class="card bg-gray-100 rounded-lg bg-gray-800 hover:shadow-xl p-5 content-around" onclick="window.open('./twitch')">
-                <div class="flex">
-                    <img src="cdn/Twitch.png" class="rounded-lg w-10 h-10"><span class="font-bold ml-3 mt-2">Twitch</span>
-                </div>
-                <p class="text-gray-400 mt-2">
-                    Check me out on Twitch!
-                </p>
-                <p class="text-blue-300 mt-2">
-                    Click here
-                </p>
-            </div>
-            
-            <!-- FIELD THREE -->
-            <div class="card bg-gray-100 rounded-lg bg-gray-800 hover:shadow-xl p-5 content-around" onclick="window.open('https://twitter.com/InfoBlock4')">
-                <div class="flex">
-                    <img src="cdn/Twitter.png" class="rounded-lg w-10 h-10"><span class="font-bold ml-3 mt-2">Twitter</span>
-                </div>
-                <p class="text-gray-400 mt-2">
-                    Check me out on Twitter!
-                </p>
-                <p class="text-blue-300 mt-2">
-                    https://twitter.com/InfoBlock4
-                </p>
-            </div>
-
-            <!-- FIELD FOUR -->
-            <div class="card bg-gray-100 rounded-lg bg-gray-800 hover:shadow-xl p-5 content-around" onclick="window.open('https://youtube.com/channel/UCpxPcXv3eD8U3qEbcPEAVrQ')">
-                <div class="flex">
-                    <img src="cdn/YouTube.png" class="rounded-lg w-10 h-10"><span class="font-bold ml-3 mt-2">YouTube</span>
-                </div>
-                <p class="text-gray-400 mt-2">
-                    Check me out on YouTube!
-                </p>
-                <p class="text-blue-300 mt-2">
-                    Click here
-                </p>
-            </div>
-            
+<!--        
             <br><br><br>
 
             <a class="text-gray-500">Copyright &copy; InfoBlock</a>
             <a class="text-gray-500" href="./terms/">Terms of Service</a>
             <a class="text-gray-500" href="./privacy/">Privacy Policy</a>
-        </div>
+-->
     </body>
+
+    <footer id="bottom-footer">
+        <div class="center-footer" style="font-size: .8rem;">
+            &copy; InfoBlock 2022 | <a class="aho" href="./terms/">Terms of Service</a> | <a class="aho" href="./privacy/">Privacy Policy</a>
+        </div>
+    </footer>
 </html>
