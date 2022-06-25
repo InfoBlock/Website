@@ -13,9 +13,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>InfoBlock</title>
         <link rel="shortcut icon" href="../../cdn/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="../css/admin.css">
     </head>
 
     <body>
-        <iframe style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0%;left:0px;right:0px;bottom:0px" width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0&modestbranding&autoplay=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;" allowfullscreen></iframe>
+        <div id="overlay" class="overlay">
+            <div class="overlay-body">
+                <p class="overlay-title">Cookies</p>
+                <p class="overlay-description">This website uses cookies to offer you the most relevant information and
+                    better understand how you use this website. Please accept cookies for
+                    optimal performance.</p>
+                <div class="overlay-buttons-wrapper">
+                    <div id="accept-button" class="overlay-button">Accept</div>
+                    <div id="decline-button" class="overlay-button">Decline</div>
+                </div>
+                <a href="https://youtu.be/fC7oUOUEEi4" target="_blank" class="overlay-link">Privacy policy</a>
+            </div>
+        </div>
+
+        <div class="scare">
+            <video id="video" class="video" src="video.mp4" loop></video>
+        </div>
     </body>
+
+    <script src="../js/admin.js" type="text/javascript"></script>
 </html>
