@@ -1,7 +1,7 @@
 var youtube = "https://youtube.com/channel/UCpxPcXv3eD8U3qEbcPEAVrQ";
 var twitter = "https://twitter.com/InfoBlock4";
 var password = "supersecretblockypassword";
-var instagram = "https://instagram.com/infoblock_ets/";
+var instagram = "https://instagram.com/infoblock3";
 var github = "https://github.com/InfoBlock";
 var email = "contact@infoblock.gq";
 
