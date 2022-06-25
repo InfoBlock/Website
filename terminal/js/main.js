@@ -95,8 +95,7 @@ function commander(cmd) {
     case "sudo":
       addLine("Oh no, you're not admin...", "color2", 80);
       setTimeout(function() {
-        //window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
-        window.open('admin/index.html', '_self')
+        window.open('admin', '_self')
       }, 3000); 
       break;
     case "social":
